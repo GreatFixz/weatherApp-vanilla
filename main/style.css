@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #4a90e2;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#card{
+  width: 350px;
+  height: 450px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: -3px -1px 27px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -3px -1px 27px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px -1px 27px 0px rgba(0,0,0,0.75);
+}
+.bx-left-name-alt{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #4a90e2;
+  padding: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.main-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.main-info > span:nth-child(1){
+  font-size: 50px;
+  font-weight: bold;
+}
+.main-info > span:nth-child(2){
+  padding: 20px 0 20px 0;
+}
+.main-info > span:nth-child(4){
+  padding: 20px 0 20px 0;
+}
+
+#main-card > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 125px;
+}
+#searchWeather{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#searchWeather > input {
+  padding: 10px;
+  background-color: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -3px -1px 27px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -3px -1px 27px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px -1px 27px 0px rgba(0,0,0,0.75);
+}
